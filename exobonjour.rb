@@ -7,7 +7,7 @@ require 'open-uri'
 
 #On défini une variable globale $data qui prend le hash qui contient les noms de villes et adresses mails (qui a été fait dans "Scraaping.rb") 
 $data = get_hash
-$gmail = Gmail.connect("salutkochanie@gmail.com", "Poland1234")
+$gmail = Gmail.connect("USERNAME", "PASSWORD")
 
 # On crée une méthode qui appelle drive et configure la spreadsheet qu'on a ouvert précédemment via google drive (ici nommée "Coucou")
 
